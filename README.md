@@ -9,15 +9,17 @@ pip install dlgo
 On the other hand, this repository at the same time contains [Code](https://github.com/maxpumperla/deep_learning_and_the_game_of_go/tree/master/code), and sample chapters for the book "Deep Learning and the Game of Go" (Manning), available for early access [here](https://www.manning.com/books/deep-learning-and-the-game-of-go), which ties into the library and teaches its components bit by biy. If you're following the code samples from the book, check out the branches for
 individual chapters.
 
+*Note for contributors*: To ensure the book stays in sync, consider requesting changes and submitting pull requests against the `improvements` branch, instead of `master` (which we keep reserved for bug fixes etc.).
+
 ![dl_go_cover](dl_go_cover.jpg)
 
 ## Playable demos
 
 The book is all about getting you started to create your own bots. To make the experience more fun and interactive, we built and deployed several bots showcasing the techniques of the respective chapter. So far you can play:
 
-- **Chapter 4** A tiny tree search bot on a 5x5 board [here](https://www.badukai.com/demos/static/play_mcts_55.html).
-- **Chapter 7** A full 19x19 bot powered by a deep neural network trained to predict human moves [here](https://www.badukai.com/demos/static/play_predict_19.html)
-- **Chapter 9** A bot playing on a 9x9 board, using policy gradients, [here](https://www.badukai.com/demos/static/play_pg_99.html)
+- **Chapter 4** A tiny tree search bot on a 5x5 board [here](https://demos.badukai.com/static/play_mcts_55.html).
+- **Chapter 7** A full 19x19 bot powered by a deep neural network trained to predict human moves [here](https://demos.badukai.com/static/play_predict_19.html)
+- **Chapter 9** A bot playing on a 9x9 board, using policy gradients, [here](https://demos.badukai.com/static/play_pg_99.html)
 
 These demos will be available in the [liveBook](https://www.manning.com/books/deep-learning-and-the-game-of-go) version of the book as well.
 
